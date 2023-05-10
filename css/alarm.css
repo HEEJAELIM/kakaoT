@@ -1,0 +1,12 @@
+.alarm {
+  background-color: red;
+  display: block;
+  width: 20.5px;
+  height: 20.5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}

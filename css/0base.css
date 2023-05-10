@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Open+Sans:wght@400;600&family=Prompt:wght@300;400&display=swap");
+@import "./reset.css";
+@import "./root.css";
+@import "./background.css";
+@import "./login.css";
+@import "./friends.css";
+@import "./chats.css";
+@import "./find.css";
+@import "./more.css";
+@import "./settings.css";
+@import "./chat.css";
+@import "./alarm.css";
+
+body {
+  font-family: "Prompt", sans-serif;
+  color: #2e363e;
+}

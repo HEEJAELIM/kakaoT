@@ -1,0 +1,141 @@
+#chat-screen {
+  background-color: #abc1d2;
+  height: 5000vh;
+}
+
+.alt-header__column span:last-child {
+  margin-left: 14px;
+}
+
+.chat-time {
+  margin-top: 60px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin-bottom: 25px;
+}
+
+.chat-timestamp {
+  color: white;
+  background-color: #92a4b2;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 19.5px;
+}
+
+.message-row {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.message-row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 35%;
+  margin-right: 12px;
+}
+
+.message__author {
+  margin-bottom: 10px;
+  display: block;
+  opacity: 0.88;
+}
+
+.message-info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__bubble {
+  background-color: white;
+  padding: 9px 11px;
+  border-radius: 14px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+
+.message__time {
+  opacity: 0.76;
+  font-size: 13px;
+}
+
+.message-row2 {
+  justify-content: flex-end;
+}
+
+.message-row2 .message__bubble {
+  background-color: rgba(230, 217, 37, 0.854);
+  border-top-right-radius: 0px;
+  border-top-left-radius: 14px;
+  margin-left: 5px;
+
+  order: 1;
+}
+
+.message-row2 .message__time {
+  order: 0;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+  padding: 7px 20px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.reply__column:first-child {
+  width: 4%;
+}
+
+.reply__column:last-child {
+  width: 96%;
+  position: relative;
+}
+
+.reply__column input {
+  width: 100%;
+  border-radius: 18px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.reply__column i {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+
+.reply__column:last-child > i {
+  right: 45px;
+  top: 5px;
+  margin-right: 10px;
+  font-size: 40px;
+}
+
+.reply__column button {
+  background-color: rgba(230, 217, 37, 0.854);
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  margin-right: -2px;
+  cursor: pointer;
+}
+
+.reply__column button i {
+  opacity: 1;
+}

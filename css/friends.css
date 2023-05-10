@@ -1,0 +1,137 @@
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9fa;
+  padding: 19px 49px;
+  border-top: 1px solid rgba(0, 0, 0, 0.35);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+
+.nav__one {
+  background-color: red;
+  display: block;
+  width: 20.5px;
+  height: 20.5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 17.5px;
+  bottom: 17.5px;
+}
+
+.nav__point {
+  background-color: red;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 27.8px;
+  top: -7.5px;
+}
+
+.header__friendsAndIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  width: 100%;
+}
+
+.header__friends {
+  font-size: 29px;
+  font-weight: 600;
+}
+
+.header__icons span {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+#friends {
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 17px 0px;
+  font-size: 17px;
+}
+
+#friends i {
+  margin-right: 3px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component {
+  display: flex;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-top: 5px;
+}
+
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__picture {
+  width: 55px;
+  height: 55px;
+  border-radius: 43%;
+  margin-right: 17px;
+  object-fit: cover;
+}
+
+.user-component__name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.user-component__nameText {
+  margin-top: 7px;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 14px;
+  width: 250%;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 12px;
+}
+
+.channel-component {
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.22);
+  padding-top: 15px;
+}
+
+.channel-component__title {
+  font-weight: 375;
+  margin-left: 25px;
+}
+
+.user-component__name2 {
+  font-weight: 450;
+}
+
+.user-component__picture2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 45%;
+  margin-right: 17px;
+  object-fit: cover;
+}
