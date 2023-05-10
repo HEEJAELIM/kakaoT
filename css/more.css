@@ -13,9 +13,10 @@
 
 .find-icons2 {
   width: 95%;
-  margin: 50px 25px 40px 25px;
+  margin: 50px 35px 40px 25px;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
 }
 
 .more-suggestions {

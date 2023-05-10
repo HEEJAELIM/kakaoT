@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-right: 25px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.35);
 }
 
@@ -134,4 +135,25 @@
   display: flex;
   align-items: center;
   font-size: 14px;
+}
+
+.open-post__heart-count i {
+  margin-right: 5px;
+}
+
+@keyframes heartBounds {
+  0% {
+    color: white;
+  }
+  50% {
+    color: blueviolet;
+    transform: scale(5);
+  }
+  100% {
+    color: white;
+  }
+}
+
+.open-post__heart-count:hover i {
+  animation: heartBounds 1.2s linear infinite;
 }

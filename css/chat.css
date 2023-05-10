@@ -1,10 +1,20 @@
 #chat-screen {
   background-color: #abc1d2;
-  height: 5000vh;
+  height: 500vh;
 }
 
 .alt-header__column span:last-child {
   margin-left: 14px;
+}
+
+@keyframes fadeInTime {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .chat-time {
@@ -14,6 +24,7 @@
   justify-content: center;
   width: 95%;
   margin-bottom: 25px;
+  animation: fadeInTime 1s ease-in-out;
 }
 
 .chat-timestamp {
@@ -24,10 +35,21 @@
   font-size: 19.5px;
 }
 
+@keyframes fadeInRow {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .message-row {
   display: flex;
   width: 100%;
   margin-bottom: 50px;
+  animation: fadeInRow 1s ease-in-out;
 }
 
 .message-row img {
@@ -61,8 +83,19 @@
   font-size: 13px;
 }
 
+@keyframes fadeInRow2 {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .message-row2 {
   justify-content: flex-end;
+  animation: fadeInRow2 1s ease-in-out;
 }
 
 .message-row2 .message__bubble {
@@ -105,6 +138,7 @@
   padding: 15px;
   box-sizing: border-box;
   border: 2px solid rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease-in-out;
 }
 
 .reply__column i {
@@ -138,4 +172,13 @@
 
 .reply__column button i {
   opacity: 1;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile-wink {
+  opacity: 0;
+}
+
+.reply input:focus {
+  transform: translateX(-5%);
 }
