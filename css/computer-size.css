@@ -1,7 +1,7 @@
 #computer-size {
   position: absolute;
   z-index: 99;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-color: rgba(230, 217, 37, 0.854);
   display: flex;
