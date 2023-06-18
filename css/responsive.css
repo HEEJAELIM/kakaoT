@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+  .reply__column:first-child {
+    width: 10%;
+  }
+
+  .reply__column:last-child {
+    width: 90%;
+    position: relative;
+  }
+  .reply input:focus {
+    transform: translateX(-14%);
+  }
+}

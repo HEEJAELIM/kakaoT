@@ -9,8 +9,9 @@
 @import "./more.css";
 @import "./settings.css";
 @import "./chat.css";
-@import "./computer-size.css";
+/* @import "./computer-size.css"; */
 @import "./alarm.css";
+@import "./responsive.css";
 
 body {
   font-family: "Prompt", sans-serif;

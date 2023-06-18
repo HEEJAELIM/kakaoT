@@ -147,7 +147,7 @@
   }
   50% {
     color: blueviolet;
-    transform: scale(5);
+    transform: scale(2);
   }
   100% {
     color: white;

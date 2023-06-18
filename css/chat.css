@@ -124,11 +124,11 @@
 }
 
 .reply__column:first-child {
-  width: 4%;
+  width: 3.5%;
 }
 
 .reply__column:last-child {
-  width: 96%;
+  width: 96.5%;
   position: relative;
 }
 
@@ -166,7 +166,7 @@
   width: 45px;
   height: 45px;
   border-radius: 50px;
-  margin-right: -2px;
+  margin-right: -5px;
   cursor: pointer;
 }
 
