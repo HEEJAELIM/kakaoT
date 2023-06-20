@@ -41,7 +41,7 @@
 .more-suggestions__img {
   width: 60px;
   height: 60px;
-  background-color: yellow;
+  background-color: rgba(230, 217, 37, 0.854);
   border-radius: 10px;
   display: flex;
   justify-content: center;
